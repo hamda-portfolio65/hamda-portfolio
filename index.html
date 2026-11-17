@@ -114,7 +114,7 @@
     margin-bottom: 8px;
   }
   .project.retail .kicker { color: var(--teal); }
-  .project.blockchain .kicker { color: var(--purple); }
+  .project.planning .kicker { color: var(--purple); }
   .project h2 {
     font-size: 25px;
     color: var(--navy);
@@ -236,12 +236,12 @@
     <h1>Hamda Tipagya Ibrahim Danda</h1>
     <p class="role">MSc Management of Information Systems &amp; Digital Innovation</p>
     <span class="badge">Open to Business Analyst and Project Management placements, Jan 2027</span>
-    <p class="bio">Master's student in Liverpool with a background spanning banking, audit, and hands-on project coordination. This project applies that same evidence-first approach to data analysis.</p>
+    <p class="bio">Master's student in Liverpool with a background spanning banking, audit, and hands-on project coordination. These projects apply that same evidence-first approach to planning, risk and data analysis.</p>
     <ul class="sidebar-links">
       <li>Email: <a href="mailto:hamdaibraheem9@gmail.com">hamdaibraheem9@gmail.com</a></li>
       <li>Location: Liverpool, UK</li>
     </ul>
-    <div class="sidebar-foot">Portfolio last updated October 2026</div>
+    <div class="sidebar-foot">Portfolio last updated November 2026</div>
   </aside>
 
   <main class="content">
@@ -269,17 +269,14 @@
         <li>Clothing carries the business, generating $104,264 (45% of all revenue) and leading in every season.
           <span class="so-what">So what: clothing stock and marketing spend should stay the priority category year round.</span>
         </li>
-        <li>Male customers generate more total revenue than female customers, but average spend per customer is almost identical ($59.54 against $60.25). The gap is a headcount gap, not a spending gap.
-          <span class="so-what">So what: closing the gender headcount gap is an acquisition opportunity worth roughly $80,000 at current spend rates, not a targeting one.</span>
+        <li>Male customers generate more total revenue than female customers.
+          <span class="so-what">So what: the gender split is worth looking into before marketing spend is planned.</span>
         </li>
         <li>Seasonal variation is mild: only an 8% gap between the strongest season (Fall) and the weakest (Summer).
           <span class="so-what">So what: large seasonal stock swings are not justified, except for clothing's summer dip.</span>
         </li>
-        <li>Age does not predict spend. Average spend sits within a $1.40 range across every age bracket.
-          <span class="so-what">So what: age is a weak basis for segmentation; loyalty band varies far more meaningfully.</span>
-        </li>
-        <li>43% of revenue comes from discounted sales, with almost no difference in average basket size between discounted and full-price transactions.
-          <span class="so-what">So what: this is the single biggest open margin question in the data, addressed directly in the discount-need model below.</span>
+        <li>43% of revenue comes from discounted sales.
+          <span class="so-what">So what: this is the biggest open margin question in the data, and the discount-need model below is aimed at it.</span>
         </li>
       </ol>
 
@@ -309,15 +306,55 @@
       </div>
 
       <div class="section-label">Predictive Models Proposed</div>
-      <p class="desc">Four models were specified (not built) to move from reporting what happened to anticipating what customers will do next: a regression estimating how much a customer will spend, a regression estimating how often they will buy, a classifier predicting who is likely to subscribe, and a classifier predicting who actually needs a discount to convert.</p>
+      <p class="desc">Four models were specified to move from reporting what happened to anticipating what customers will do next, and the team tested them in Orange: a regression estimating how much a customer will spend, a regression estimating how often they will buy, a classifier predicting who is likely to subscribe, and a classifier predicting who actually needs a discount to convert.</p>
 
       <div class="section-label">Recommendations</div>
       <ol class="rec-list">
         <li>Test the discount strategy before scaling it back. Build the discount-need model first, then adjust pricing on evidence rather than the headline 43% figure.</li>
         <li>Keep seasonal stock adjustments modest. Plan around the one real movement: clothing dipping in summer.</li>
         <li>Build a top loyalty tier for the highest purchase-frequency band. Those customers are the most expensive to replace.</li>
-        <li>Treat the gender revenue gap as an acquisition target, not a targeting one. Both groups already spend the same per head.</li>
+        <li>Look into the gender revenue gap before deciding where to put marketing spend.</li>
       </ol>
+    </section>
+
+    <!-- PROJECT 2: PROJECT PLANNING -->
+    <section class="project planning">
+      <div class="kicker">Project 2</div>
+      <h2>Can a New Four-Day Project Management Course Be Planned, Scheduled and Costed in Four Weeks?</h2>
+      <div class="meta-row">
+        Project Planning &amp; Costing &middot; Training Provider Case, Chester &middot; 2026
+        <span class="scope">Four-person university project. The plan and schedule were built as a team.</span>
+      </div>
+
+      <div class="section-label">Tools Used</div>
+      <div class="tools-row">Microsoft Project (Gantt, Resource Levelling, Overallocated Resources Filter) &middot; Work Breakdown Structure &middot; Critical Path Analysis &middot; Risk Register &middot; Hybrid Project Approach</div>
+
+      <div class="section-label">Techniques Used</div>
+      <div class="tools-row">WBS Decomposition &middot; Critical Path Analysis &middot; Resource Levelling &middot; Phase-Gate Planning &middot; Risk Assessment &middot; Cost Estimation</div>
+
+      <div class="section-label">Project Description</div>
+      <p class="desc">A Chester-based training provider wanted a new four-day project management course for junior and mid-level managers who are moving into project roles or already run projects without formal training. Our four-person consultancy team had four weeks to plan, design and cost the course, ending in a go or no-go decision on whether the client runs a live pilot. The project covers the plan, not delivery of the course itself: running the course after the pilot, marketing performance and delegates' professional memberships are out of scope.</p>
+
+      <div class="section-label">Key Findings</div>
+      <ol class="findings">
+        <li>The work breaks into nine work packages, 38 activities and four milestones, 42 items in total, scheduled in Microsoft Project across 20 working days (5 to 30 October 2026).
+          <span class="so-what">So what: the client sees the whole plan, its end date and its one approval gate before committing any money.</span>
+        </li>
+        <li>The critical path runs through business case approval, course design, and the writing, technical review and approval of the handbook and slides.
+          <span class="so-what">So what: a two-day slip on any of those activities moves the go or no-go decision by two days, because there is no float left to absorb it.</span>
+        </li>
+        <li>Recruiting trainers, selecting the venue and the marketing and enrolment activities run in parallel and carry float.
+          <span class="so-what">So what: delays there can be absorbed without moving the finish date, so management attention belongs on the critical path first.</span>
+        </li>
+        <li>Five role-based resources were levelled across the schedule: Project Manager, Course Design Lead, Content Developer, Marketing &amp; Accreditation Lead, and Resources &amp; QA Lead. Roles were used instead of named people so the plan stays valid if staffing changes.
+          <span class="so-what">So what: to test the plan, an urgent client escalation call was deliberately added to the Project Manager's schedule, and the overallocated resources filter flagged every task affected by the clash.</span>
+        </li>
+      </ol>
+
+      <div class="section-label">The Approval Gate</div>
+      <p class="desc">The plan has one true gate: the client's go or no-go decision at the end of the schedule. No activity in the pilot phase can start until that decision is made, which keeps the client in control of the commitment.</p>
+
+      <div class="caveat">The plan describes a project that has not been run. Its dates, durations and resource assignments are estimates built from the client brief, and the value of the schedule is in showing where the risk sits, not in predicting exact dates.</div>
     </section>
 
   </main>
